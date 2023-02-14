@@ -12,6 +12,7 @@ public class ProductDaoImpl implements ProductDao{
         products.add(new Product(1,"Ordinateur",500));
         products.add(new Product(2,"Frigidaire",100));
         products.add(new Product(3,"Micro Onde",400));
+        products.add(new Product(4,"mixeur",200));
 
     }
     @Override

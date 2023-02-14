@@ -1,9 +1,14 @@
 package com.groupe5.SpringTestMicroservice.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Product {
+    @Id
     private int id;
     private String nom;
-
+    private int prix;
     public void setId(int id) {
         this.id = id;
     }
@@ -16,7 +21,7 @@ public class Product {
         this.prix = prix;
     }
 
-    private int prix;
+
 
     public int getId() {
         return id;
